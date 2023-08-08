@@ -21,6 +21,12 @@ public class VectorOperations {
     }
 
 
+    /**
+     * Calculate the difference between two vectors
+     * @param u
+     * @param v
+     * @return
+     */
     public static double[] calculateSubtraction(double[] u, double[] v) {
         if (u.length != v.length) {
             throw new IllegalArgumentException("Vectors must have the same length.");
@@ -33,6 +39,12 @@ public class VectorOperations {
         return subtraction;
     }
 
+    /**
+     * Calculate the cross product between two vectors
+     * @param u
+     * @param v
+     * @return
+     */
     public static double[] calculateCrossProduct(double[] u, double[] v) {
         if (u.length != 3 || v.length != 3) {
             throw new IllegalArgumentException("Cross product is only defined for 3D vectors.");
@@ -45,6 +57,12 @@ public class VectorOperations {
         return crossProduct;
     }
 
+    /**
+     * Calculate the dot product between two vectors
+     * @param u
+     * @param v
+     * @return
+     */
     private static double calculateDotProduct(double[] u, double[] v) {
         double dotProduct = 0;
         for (int i = 0; i < u.length; i++) {

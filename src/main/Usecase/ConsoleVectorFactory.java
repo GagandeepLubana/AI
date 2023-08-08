@@ -11,6 +11,11 @@ public class ConsoleVectorFactory implements VectorFactory {
         this.scanner = scanner;
     }
 
+    /**
+     * Creates the vector desired from the console
+     * @param size
+     * @return double[] representation of the vector
+     */
     @Override
     public double[] createVector(int size) {
         System.out.println("Enter the components of the vector (separated by spaces):");
