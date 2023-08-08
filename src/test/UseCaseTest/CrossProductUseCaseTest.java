@@ -1,3 +1,5 @@
+package UseCaseTest;
+
 import Usecase.CrossProductUseCase;
 import org.junit.jupiter.api.Test;
 
