@@ -6,6 +6,7 @@ _____
 ## Development Technologies
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
+Corretto 11, JUnit 5.8.1
 
 _____
 
